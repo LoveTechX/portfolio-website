@@ -74,3 +74,34 @@ p {
     color: #555;
     line-height: 1.6;
 }
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#home {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #222, #444);
+    color: white;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+}
