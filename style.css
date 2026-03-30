@@ -30,3 +30,47 @@ nav a {
 section {
     margin: 50px 0;
 }
+
+:root {
+    --primary: #222;
+    --secondary: #333;
+    --accent: #00bcd4;
+    --text: #ffffff;
+    --bg: #f5f5f5;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+header {
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+nav {
+    background-color: var(--secondary);
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+section:target {
+    background-color: #e0f7fa;
+    transition: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
