@@ -1,56 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Webpage</title>
 </head>
+
 <body>
     <header>
         <h1>Lovepreet Singh</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Information</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact Information</a></li>
-        </ul>
-    </nav>
-    <section>
+    <section id="home">
+        <h2>Welcome</h2>
         <p>This is a simple webpage created as an example.</p>
         <p>Feel free to explore and learn more about HTML!</p>
     </section>
-    <section>
+    <section id="about">
         <h2>About Me</h2>
         <p>I am a web developer with a passion for creating beautiful and functional websites.</p>
     </section>
-    <section>
+    <section id="projects">
         <h2>Projects</h2>
-        <dl>
-            <li>
-                <dt>Project 1</dt>
-                <dd>A personal blog built with HTML, CSS, and JavaScript.</dd>
-            </li>
-        </dl>
-        <dl>
-            <li>
-                <dt>Project 2</dt>
-                <dd>An e-commerce website designed for a local business.</dd>
-            </li>
-        </dl>
-        <dl>
-            <li>
-                <dt>Project 3</dt>
-                <dd>A portfolio website showcasing my work and skills.</dd>
-            </li>
-        </dl>
+        <ul>
+            <li><strong>Project 1:</strong> Personal Portfolio Website</li>
+            <li><strong>Project 2:</strong> E-commerce Store</li>
+            <li><strong>Project 3:</strong> Blogging Platform</li>
+        </ul>
     </section>
-    <section>
+    <section id="contact">
         <h2>Contact Information</h2>
         <p>Email: example@email.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Main Street, City, State 12345</p>
     </section>
     <footer>
         <p>&copy; 2024 Lovepreet Singh. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
